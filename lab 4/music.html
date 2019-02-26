@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<!--
+	CSE 190 M, Web Programming Step by Step
+	Lab #3, PHP
+	-->
+
+	<head>
+		<title>Music Viewer</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="http://www.cs.washington.edu/education/courses/cse190m/10su/labs/3/viewer.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		
+		<!-- Exercise 1 : put a "hello world" message here at the top of the page -->
+		
+		<h1>190M Music Page</h1>
+
+		<div id="topvideosarea">
+			<h2>Yahoo! Top Music Videos</h2>
+		
+			<ol>
+				<!-- Yahoo links, exercise 2 -->
+				<li><a href="http://new.music.yahoo.com/videos/charts/?cat=popular&page=1">Page 1</a></li>
+				<li><a href="http://new.music.yahoo.com/videos/charts/?cat=popular&page=2">Page 2</a></li>
+				<li><a href="http://new.music.yahoo.com/videos/charts/?cat=popular&page=3">Page 3</a></li>
+				<li><a href="http://new.music.yahoo.com/videos/charts/?cat=popular&page=4">Page 4</a></li>
+				<li><a href="http://new.music.yahoo.com/videos/charts/?cat=popular&page=5">Page 5</a></li>
+			</ol>
+		</div>
+		
+		<div id="listarea">
+			<h2>My Music and Playlists</h2>
+
+			<ul id="musiclist">
+				<!-- list of MP3s, exercises 3, 4, 6 -->
+			
+				<li class="mp3item">
+					<a href="songs/be-more.mp3">be-more.mp3</a>
+				</li>
+
+				<li class="mp3item">
+					<a href="songs/drift-away.mp3">drift-away.mp3</a>
+				</li>
+				
+				<li class="mp3item">
+					<a href="songs/panda-sneeze.mp3">panda-sneeze.mp3</a>
+				</li>
+				
+				
+				<!-- playlist files, exercise 5 -->
+				
+				<li class="playlistitem">190m-mix.m3u:
+					<ul>
+						<li>Hello.mp3</li>
+						<li>Be More.mp3</li>
+						<li>Drift Away.mp3</li>
+						<li>190M Rap.mp3</li>
+						<li>Panda Sneeze.mp3</li>
+					</ul>
+				</li>
+
+				<li class="playlistitem">mypicks.m3u:
+					<ul>
+						<li>Be More.mp3</li>
+						<li>Just Because.mp3</li>
+						<li>Drift Away.mp3</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+	</body>
+</html>
